@@ -1,0 +1,26 @@
+{
+  "name": "smart-campus-management-system",
+  "version": "1.0.0",
+  "description": "Smart Campus Management System - Full-Stack MERN Platform with Role-Based Access Control, Grievance Redressal, and Facility Management",
+  "main": "server/src/server.js",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "server": "npm run start --prefix server",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "test": "npm run test --prefix server",
+    "postinstall": "npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": [
+    "campus-management",
+    "mern-stack",
+    "react",
+    "node",
+    "express",
+    "mongodb",
+    "jwt-auth",
+    "smart-campus"
+  ],
+  "author": "Smart Campus Engineering Team",
+  "license": "MIT"
+}
